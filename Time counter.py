@@ -14,10 +14,15 @@ def  calendar_clock():
     #hours
     totalHours= totalMinutes//60
     currentHour= (totalHours%24)-6
-
+    standardHour= currentHour%12
+    am_pm= " "
+    if currentHour> 12:
+        am_pm= "pm"
+    else:
+        am_pm= "am"
     
 
-    print(currentHour,":",currentMinute,":",currentSecond)
+    print(standardHour,":",currentMinute,":",currentSecond,am_pm)
    
 
 x=0
