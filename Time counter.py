@@ -15,8 +15,10 @@ def  calendar_clock():
     totalHours= totalMinutes//60
     currentHour= (totalHours%24)-6
     standardHour= currentHour%12
+    if standardHour==0:
+        standardHour=12
     am_pm= " "
-    if currentHour> 12:
+    if currentHour>= 12:
         am_pm= "pm"
     else:
         am_pm= "am"
