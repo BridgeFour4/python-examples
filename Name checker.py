@@ -2,19 +2,19 @@
 #9/18
 import math
 # get a users name
-def get_name(name):
-    input_name= name
-    input_name= input_name.lower()
-    input_name=input_name.title()
-    
-    
-    print("the name you entered was", input_name)
-#step 3  verify the name
-    verify= input("is this correct yes or no")
-
-print("this is our function")
-name= input("What is your name")
-get_name(name)
+##def get_name(name):
+##    input_name= name
+##    input_name= input_name.lower()
+##    input_name=input_name.title()
+##    
+##    
+##    print("the name you entered was", input_name)
+###step 3  verify the name
+##    verify= input("is this correct yes or no")
+##
+##print("this is our function")
+##name= input("What is your name")
+##get_name(name)
 
 
 ##
@@ -38,18 +38,18 @@ get_name(name)
 
 #pythagorean theorum
 
-##def pythag_theorum(ap=1,bp=1):
-##    a= float(ap)
-##    b= float(bp)
-##    c= a*a + b*b
-##    c=math.sqrt(c)
-##
-##    print("the third side is",c)
-##
-##    
-##ai=input ("the first side is what ")
-##bi=input ("the second side is what ")
-##pythag_theorum(ai,bi)
+def pythag_theorum(ap=1,bp=1):
+    a= float(ap)
+    b= float(bp)
+    c= a*a + b*b
+    c=math.sqrt(c)
+
+    print("the third side is",c)
+
+    
+ai=input ("the first side is what ")
+bi=input ("the second side is what ")
+pythag_theorum(ai,bi)
 
 
 ##def add_numbers(x,y):
